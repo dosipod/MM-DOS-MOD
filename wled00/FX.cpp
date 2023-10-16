@@ -6090,7 +6090,7 @@ uint16_t mode_2Dscrollingtext(void) {
     else if (!strncmp_P(text,PSTR("#TIME"),5)) sprintf_P(text, PSTR("%2d:%02d%s"), AmPmHour, minute(localTime), sec);
     else if (!strncmp_P(text,PSTR("#HHMM"),5)) sprintf_P(text, PSTR("%2d:%02d"), AmPmHour, minute(localTime));
     else if (!strncmp_P(text,PSTR("#FPS"),4)) sprintf_P(text, PSTR("%2d"), (int) strip.getFps());                     // WLEDMM
-    else if (!strncmp_P(text,PSTR("#POW"),4)) sprintf_P(text, PSTR("%3.2fA"), float(strip.currentMilliamps)/1000.0f); // WLEDMM
+    else if (!strncmp_P(text,PSTR("#FUK"),4)) sprintf_P(text, PSTR("%3.2fA"), float(strip.currentMilliamps)/1000.0f); // WLEDMM
     else sprintf_P(text, PSTR("%s %d, %d %2d:%02d%s"), monthShortStr(month(localTime)), day(localTime), year(localTime), AmPmHour, minute(localTime), sec);
   }
   const int numberOfLetters = strlen(text);
