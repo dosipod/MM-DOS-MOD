@@ -3,7 +3,7 @@
 #include "wled.h"
 
 // softhack007: workaround for ICE (internal compiler error) when compiling with new framework and "-O2":
-
+// DOSPOD mod v1 10_16_2023
 /* 
 	wled00/../usermods/usermod_v2_animartrix/usermod_v2_animartrix.h: In function 'uint16_t mode_Waves()':
 	wled00/../usermods/usermod_v2_animartrix/usermod_v2_animartrix.h:367:1: error: insn does not satisfy its constraints:
