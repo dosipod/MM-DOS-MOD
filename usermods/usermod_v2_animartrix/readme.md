@@ -1,4 +1,4 @@
-# Usermods API v2 example usermod
+# Usermods TEST API v2 example usermod
 
 In this usermod file you can find the documentation on how to take advantage of the new version 2 usermods!
 
